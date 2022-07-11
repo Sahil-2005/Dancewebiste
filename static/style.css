@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#navbar{
+    background-color: red;
+    padding: 10px 14px;
+    font-family: 'Oswald', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#navbar li{
+    padding: 12px 30px;
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 23px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 12px;
+}
+.spon{
+    display: flex;
+    justify-content: center;
+}
+.spon img{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    border-radius: 12px;
+}
+#navbar img{
+    height: 43px;
+    width: 40px;
+    filter: invert(1);
+    border-radius: 12px;
+}
+
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img{
+    border-radius: 12px;
+    height: 55px;
+    margin: 12px;
+    filter: invert(1);
+}
+.card-content{
+    padding: 12px;
+}
+.card-content p{
+    font-size: 18px;
+}
+#introSection{
+    height: 500px;
+    background: url("/static/bg.jpg") no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+#introSection .small{
+    font-size: 27px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #e28e8e;
+}
+#sponsorsSection h2{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 13px;
+}
+#Mission{
+    height: 326px;
+    width: 67%;
+    margin: auto;
+}
+#Mission h2{
+    text-align: center;
+    padding-top: 13px;
+    font-size: 36px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 31%;
+    margin: 23px 10px;
+    height: 209px;
+    display: inline-block;
+    background-color: rgb(77, 118, 104);
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Footer{
+    /* height: 100px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: white;
+}

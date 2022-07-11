@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+  head
+    title Sahil Dance Acedemy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+            ul 
+                div#logo
+                        img(src="/static/img/logomain.jpg", alt="")
+                        | SDA 
+                li #[a(href = "/") Home] 
+                li #[a(href = "/") About]
+                li #[a(href = "/") Services]
+                li #[a(href = "/") Class_info]
+                li #[a(href = "/contact") Contact_us]
+
+    section#introSection 
+        div  Welcome to Sahil's Dance Acedemy 
+        div.small  Eat Sleep Dance Repeat
+    section#Mission 
+        h2 Our Misson
+        div.card
+            h3 Dance perfection 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/img1.png", alt="")
+                div.card-content 
+                    p This is best acedemy I have ever seen
+        div.card
+            h3 Dance to express
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img2.jpg", alt="") 
+                div.card-content 
+                    p This is best acedemy I have ever seen 
+        div.card
+            h3 Expert teachers 
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img3.png", alt="")
+                div.card-content 
+                    p This is best acedemy I have ever seen 
+    section#sponsorsSection  
+        h2 Our Sponsors 
+        div.spon 
+            img(src="/static/img/adobe.jpg", alt="Sponsor Image") 
+            img(src="/static/img/apple.png", alt="Sponsor Image") 
+            img(src="/static/img/google.jpg", alt="Sponsor Image") 
+            img(src="/static/img/logom.png", alt="Sponsor Image") 
+            img(src="/static/img/mobilunity.jpg", alt="Sponsor Image") 
+    footer#Footer 
+        | Copyright &copy All rights reserved under sahildanceacedamy.com 
+    script 
+     include ../static/index.js
